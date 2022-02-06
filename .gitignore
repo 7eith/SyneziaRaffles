@@ -1,0 +1,6 @@
+inputs/
+__pycache__*
+*.csv
+*.txt
+*.json
+settings.json

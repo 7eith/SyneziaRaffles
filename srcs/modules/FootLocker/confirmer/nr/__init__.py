@@ -1,0 +1,1 @@
+from .confirmer_module import FootLockerLinkConfirmer

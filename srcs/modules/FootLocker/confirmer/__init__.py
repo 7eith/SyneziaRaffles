@@ -1,0 +1,1 @@
+from .confirmer import FootLockerConfirmer
