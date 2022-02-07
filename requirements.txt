@@ -1,0 +1,12 @@
+beautifulsoup4==4.10.0
+cloudscraper==1.2.58
+discord_webhook==0.14.0
+inquirer==2.9.1
+pyfiglet==0.8.post1
+PyInquirer==1.0.3
+pypresence==4.2.1
+python_dateutil==2.8.2
+random_user_agent==1.0.1
+requests==2.27.1
+requests_toolbelt==0.9.1
+TwoCaptcha==0.0.1

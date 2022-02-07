@@ -35,7 +35,7 @@ class CLI:
 			"Kith",
 			"Naked",
 			"FootLocker App",
-			"Solebox [1 new raffle available]",
+			"Solebox",
 			"StreetMachine",
 			"ThePlayOffs",
 			"Impact",
@@ -43,24 +43,7 @@ class CLI:
 			"TheBrokenArm",
 			PyInquirer.Separator(f"\n     --- AIO ---"),
 			"Google Form",
-			"Microsoft Form",
-			PyInquirer.Separator(f"\n     --- Disabled ---"),
-			{
-				'name': "SneakerDelight",
-				"disabled": "Waiting new Raffle..."
-			},
-			{
-                'name': 'FootPatrol',
-                'disabled': 'Soon (TypeForm AIO)'
-            },
-			{
-                'name': 'Travis Scott',
-                'disabled': 'Unavailable'
-            },
-			{
-                'name': 'DSML',
-                'disabled': 'Soon'
-            }
+			"Microsoft Form"
 		]
 
 		questions = [
@@ -144,7 +127,7 @@ class CLI:
 			from modules.TravisScott import TravisScott
 
 			TravisScott()
-		# Logger.info("This modules is unavailable at this time.")
+			
 		return self.promptModule()
 
 	def __init__(self):
